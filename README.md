@@ -1,10 +1,17 @@
 /*-------------------------------------------------*/
+
 /* Spark SQL Demo                                  */
+
 /*  (performance comparison with Apache Drill)     */
+
 /*       2015.9.15 at Tokyo Apache Drill Meetup    */
+
 /*       Created by Mitsutoshi Kiuchi              */
+
 /*                  <m-kiuchi@creationline.com>    */
+
 /*-------------------------------------------------*/
+
 
 1. Overview
 
