@@ -12,7 +12,7 @@ object AggQuery {
     sc.hadoopConfiguration.setInt("fs.local.block.size", blockSize)
     val sqlContext = new org.apache.spark.sql.SQLContext(sc)
     //val rating = sqlContext.read.json("ratings.json")
-    val rating = sqlContext.read.json("hdfs://192.168.0.10:9000/movielens/ratings.json")
+    val rating = sqlContext.read.json("ratings.json")
     rating.registerTempTable("ratings")
     val res = rating.filter("RATE > 3.0")
     val cnt = res.count()
