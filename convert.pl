@@ -18,6 +18,7 @@ open(FHW, ">>", "movies.json") or dir("movies.json write error");
 while(my $line = <FH>){
   chomp($line);
   my @ar = split(":", $line);
+  $ar[2] =~ s/['|"]/-/g;
   my $out = "{ \"MOVIE\": $ar[0], \"TITLE\": \"$ar[2]\", \"GENRE\": \"$ar[4]\" }";
   print FHW "$out\n";
 }
