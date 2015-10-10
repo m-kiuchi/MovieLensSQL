@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 #SPARK_EXE=/home/demo/spark-1.4.1
 if [ "${SPARK_EXE}" == "" ]; then
