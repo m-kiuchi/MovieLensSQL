@@ -54,7 +54,7 @@ EOT
 
 cat > sql2-1.sql <<EOT
 ALTER SYSTEM SET \`store.json.read_numbers_as_double\` = true;
-SELECT RATtbl.UID, COUNT(RATtbl.UID) as NUMEVALS　FROM dfs.\`${PWD}/ratings.json\` as RATtbl JOIN dfs.\`${PWD}/users.json\` as USRtbl ON RATtbl.UID = USRtbl.UID WHERE USRtbl.GENDER = 'F' GROUP BY RATtbl.UID ORDER BY COUNT(RATtbl.UID) DESC　LIMIT 10;
+SELECT RATtbl.UID, COUNT(RATtbl.UID) as NUMEVALS FROM dfs.\`${PWD}/ratings.json\` as RATtbl JOIN dfs.\`${PWD}/users.json\` as USRtbl ON RATtbl.UID = USRtbl.UID WHERE USRtbl.GENDER = 'F' GROUP BY RATtbl.UID ORDER BY COUNT(RATtbl.UID) DESC LIMIT 10;
 EOT
 
 cat > sql2-2.sql <<EOT
