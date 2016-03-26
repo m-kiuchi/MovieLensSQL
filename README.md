@@ -1,8 +1,13 @@
 #Apache Spark and Apache Drill SQL Demo
-\(performance comparison with Apache Drill)
-\       2015.9.15 at Tokyo Apache Drill Meetup
-\       Created by Mitsutoshi Kiuchi
-\                  <m-kiuchi@creationline.com>
+
+(performance comparison with Apache Drill)
+
+2015.9.15 at Tokyo Apache Drill Meetup
+
+Created by Mitsutoshi Kiuchi
+
+<m-kiuchi@creationline.com>
+
 ##1. Overview
 
   This demo set is meant for demonstrate about query performance of Apache Spark and Apache Drill.
