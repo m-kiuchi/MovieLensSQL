@@ -1,8 +1,5 @@
-/*-------------------------------------------------*/
-
-/* Spark SQL Demo                                  */
-
-/*  (performance comparison with Apache Drill)     */
+#Apache Spark and Apache Drill SQL Demo
+(performance comparison with Apache Drill)     */
 
 /*       2015.9.15 at Tokyo Apache Drill Meetup    */
 
